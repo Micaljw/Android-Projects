@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".AddIngredients" >
+
+    <Button
+        android:id="@+id/manual_entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="@drawable/creative_blue"
+        android:onClick="manualEntry"
+        android:text="@string/manual_entry"
+        android:layout_weight="50" />
+    
+    <Button
+        android:id="@+id/ocr_entry_button"
+        android:background="@drawable/creative_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OCR"
+        android:text="@string/OCR_entry" 
+        android:layout_weight="50"/>
+
+</LinearLayout>

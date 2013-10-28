@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/creative_red"
+            android:text="@string/btn_delete" ></Button>
+        
+		 <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnDelete"
+            android:fillViewport="true">
+			<LinearLayout
+    			android:id="@+id/tvSQLmeat"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_gravity="top"
+    			android:orientation="vertical" ></LinearLayout>
+		</ScrollView>
+
+</RelativeLayout>

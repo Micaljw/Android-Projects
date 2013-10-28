@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recipe Cart</string>
+    <string name="btn_delete">Remove</string>
+    <string name="favorites">Favorite Recipes</string>
+    <string name="fav_disp"></string>
+    <string name="btn_add_favorites">Add to Favorites</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="manage_pantry">Manage Pantry</string>
+    <string name="manage_favorites">Manage Favorites</string>
+    <string name="search_recipe">Search Recipe</string>
+    <string name="title_activity_add_ingredients">Add Ingredients</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="OCR_entry">OCR Entry</string>
+	<string name="auto_search">Automatic Search</string>
+	<string name="advanced_search">Advanced Search</string>
+	<string name="grains">Grains</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruit">Fruit</string>
+    <string name="milk">Milk</string>
+    <string name="meat">Meat and Beans</string>
+    <string name="fats">Fats and Oils</string>
+    <string name="text">I am a text</string>
+    <string name="name">Name of food item</string>
+    <string name="name2">Select ingredient category</string>
+    <string name="pantry">Pantry Status</string>
+    <string name="up">Update Pantry</string>
+    <string name="view">View</string>
+    <string name="database">Recipes</string>
+    <string name="delete">Delete</string>
+    <string name="rowPrompt">Enter row number you wish to delete</string>
+    <string name="load">Loading data</string>
+    <string name="ingredient_prompt">Choose ingredient location</string>
+    <string name="favText">Favorites</string>
+    <string name="adv_prompt">Please select ingredients you wish to include in recipe.</string>
+    <string name="adv_go">Search</string>
+    <string name="desc">Stuff</string>
+    <string name="disp_recipes_found">Select a link to view a recipe, or add to favorites.</string>
+    
+    <string-array name="ingredient_array">
+    	<item>Fats</item>
+    	<item>Milk</item>
+    	<item>Meat</item>
+    	<item>Vegetables</item>
+    	<item>Fruit</item>
+    	<item>Grains</item>
+    </string-array>
+    
+</resources>

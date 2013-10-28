@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddIngredients" >
+
+    <ImageButton
+        android:id="@+id/fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/milk"
+        android:layout_alignTop="@+id/fats_and_oils"
+        android:contentDescription="@string/fruit"
+        android:onClick="fruit"
+        android:padding="1dp"
+        android:src="@drawable/fruits2" />
+
+    <ImageButton
+        android:id="@+id/meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/vegetables"
+        android:contentDescription="@string/meat"
+        android:onClick="meat"
+        android:padding="1dp"
+        android:src="@drawable/meats2" />
+
+    <ImageButton
+        android:id="@+id/vegetables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/vegetables"
+        android:onClick="vegetables"
+        android:padding="1dp"
+        android:src="@drawable/vegies2" />
+
+    <ImageButton
+        android:id="@+id/grains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vegetables"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/grains"
+        android:onClick="grains"
+        android:padding="1dp"
+        android:src="@drawable/grains2" />
+
+    <ImageButton
+        android:id="@+id/milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/grains"
+        android:contentDescription="@string/milk"
+        android:onClick="milk"
+        android:padding="1dp"
+        android:src="@drawable/milk2" />
+
+    <ImageButton
+        android:id="@+id/fats_and_oils"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/grains"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/fats"
+        android:onClick="fats"
+        android:padding="1dp"
+        android:src="@drawable/oilsnfats" />
+
+</RelativeLayout>

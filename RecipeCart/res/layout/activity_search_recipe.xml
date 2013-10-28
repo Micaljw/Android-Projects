@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".AddIngredients" >
+
+    <Button
+        android:id="@+id/automatic_search_button"
+        android:background="@drawable/creative_blue"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/auto_search"
+        android:layout_weight="50" />
+
+    <Button
+        android:id="@+id/advanced_search_button"
+        android:background="@drawable/creative_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="advSearch"
+        android:layout_weight="50"
+        android:text="@string/advanced_search" />
+
+</LinearLayout>

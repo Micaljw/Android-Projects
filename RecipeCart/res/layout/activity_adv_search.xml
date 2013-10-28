@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+
+    <TextView
+        android:id="@+id/adv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/adv_prompt"
+        android:textColor="@color/blue"
+        android:textStyle="italic"
+        android:textSize="13sp"></TextView>
+    
+   	<Button
+   		android:id="@+id/adv_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/creative_blue"
+        android:text="@string/adv_go"
+        android:layout_alignParentBottom="true"></Button>
+    
+    <ScrollView 
+        android:layout_below="@+id/adv_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/adv_button"
+        android:fillViewport="true">
+        <LinearLayout
+    			android:id="@+id/tvSQLAdvSearch"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:layout_gravity="top"
+    			android:orientation="vertical" ></LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

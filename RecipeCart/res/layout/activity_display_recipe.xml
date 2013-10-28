@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+    
+    <Button
+            android:id="@+id/btnFavorites"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/creative_blue"
+            android:text="@string/btn_add_favorites" ></Button>
+    		
+	<ScrollView
+    	   	android:id="@+id/svDisp"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_above="@+id/btnFavorites">
+	
+    		<TableLayout 
+    		    android:id="@+id/LlDisp"
+    	    	android:layout_width="match_parent"
+    	    	android:layout_height="wrap_content"
+    	    	android:orientation="vertical">
+    	    	
+    		    <TextView 
+    		        android:id="@+id/tvDisp"
+    		        android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:text="@string/disp_recipes_found"
+    		        android:textColor="@color/blue"
+    		        android:textStyle="italic"/>
+    	    </TableLayout>
+    	    
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recipecart"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+	
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_rc3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.recipecart.MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.recipecart.AddIngredients"
+            android:label="@string/title_activity_add_ingredients" >
+        </activity>
+        <activity 
+            android:name="com.example.recipecart.CompleteActivity"></activity>        
+        <activity
+            android:name="com.example.recipecart.AdvancedSearch"
+            android:label="Advanced Search"></activity>"
+        <activity  
+            android:name="com.example.recipecart.SearchRecipe" >
+        </activity>
+        <activity 
+            android:name="com.example.recipecart.OCR"></activity>        
+        <activity
+            android:name="com.example.recipecart.ManagePantry"
+            android:label="Pantry" >
+        </activity>
+        <activity 
+            android:name="com.example.recipecart.DisplayRecipe"
+            android:label="Recipes Found"
+            ></activity>
+        <activity 
+            android:name="com.example.recipecart.ManageFavorites"
+            android:label="Favorite Recipes" >
+        </activity>
+        <activity 
+            android:name="com.example.recipecart.HttpExample" ></activity>
+        <activity
+            android:name="com.example.recipecart.ManualEntry"></activity>
+        <activity
+            android:name=".Fats" android:label = "Fats and Oils">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Fats"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Milk" android:label = "Dairy">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Milk"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Meat" android:label = "Meat and Beans">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Meat"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Vegetables" android:label = "Vegetables">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Vegetables"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fruit" android:label = "Fruit">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Fruit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Grains" android:label = "Grains">
+            <intent-filter>
+                <action android:name="com.example.recipecart.Grains"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
